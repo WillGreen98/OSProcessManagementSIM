@@ -4,8 +4,6 @@ from prettytable import PrettyTable
 
 DEFAULT_CPU_CYLE = 23
 
-
-
 class PCB():
     def __init__(self, name, id, priority,state, job_length ):
         self.name = name
